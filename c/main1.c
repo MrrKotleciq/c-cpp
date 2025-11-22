@@ -10,13 +10,19 @@ int main() {
     char ch = 'Z';
     float pi = 3.14;
 
+    // printf("%i\n", &ch);
+    // printf("%i\n", num);
+    // num = 4;
+    // printf("%i\n", *ptr);
+    // printf("%i\n", num);
+    // const int *ptr = &num;
 
-    const int* ptr = &num;
+    int a;
+    scanf("%i");
+    printf("%i", a);
 
-    printf("%i\n", num);
-    num = 4;
-    printf("%i\n", ptr);
-    printf("%i\n", num);
+
+
 
     return 0;
 }
