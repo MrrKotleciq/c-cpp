@@ -23,12 +23,26 @@ int main() {
     // scanf("%i %c", &age, &gender);
     // printf("You entered: %i and %c", age, gender);
     
+    int x = 3;
+    int y = 5u;
     
-    int a = scanf("%c");
-    printf("%i", a );
+    // printf("Please, input an integer: ");
+    // int a = scanf("%c");
+    // printf("%i", a );
     
+    unsigned int z = y<<20;
+    //printf("%i", z); 
 
+    //(x>y) ? (printf("x is larger then y\n")) : (printf("x equals: %i\n", x++));
+    //(x>y) ? (printf("x is larger then y\n")) : (printf("x equals: %i\n", x++));
+    //(x>y) ? (printf("x is larger then y\n")) : (printf("x equals: %i\n", x++));
+    //(x>y) ? (printf("x is larger then y\n")) : (printf("x equals: %i\n", x++));
 
+    char b = 'B';
+    int h = ++b;
+    printf("%i", h);
+    char l = --h;
+    printf("%c", l);
 
     return 0;
 }
